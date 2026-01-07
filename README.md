@@ -38,12 +38,10 @@ python test.py
 ```
 
 ## Change parameters
-Edit `Bode_Plot_Graph.py`:
-```python
-R = 1000    # Change resistance
-C = 1e-6    # Change capacitance
-```
+R = 1000    Change resistance to any number
+C = 1e-6    Change capacitance to any number
+
 
 ## Output
-- `bode_data.csv` - Raw frequency response data
-- `bode_plot.png` - Bode plot image
+- Raw frequency response data
+- Bode plot image
