@@ -16,6 +16,7 @@ print("Cutoff frequency =", cutoff_freq, "Hz")
 #frequency range (logarithmic)
 frequencies = np.logspace(-1, 5, num_points)  # 0.1 to 100000 rad/s
 
+
 #magnitude and phase for each frequency
 magnitudes = []
 phases = []
